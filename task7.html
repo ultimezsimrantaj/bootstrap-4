@@ -1,0 +1,60 @@
+<!-- inside a col  cretae several alerts with different bootstrap alert classes(eg alert-primary, alert-secondary, alert-success, alert-danger, alert-warning, alert-info)
+ 2. create a dismissible alert using the alert-dismissible and fade show class and a close button inside the alert
+ 3.cretae linking alerts by adding an alert-link class to links inside alert messages-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Bootstrap Alerts</h2>
+                <div class="alert alert-primary" role="alert">
+                    This is a primary alert!
+                </div>
+                <div class="alert alert-secondary" role="alert">
+                    This is a secondary alert!
+                </div>
+                <div class="alert alert-success" role="alert">
+                    This is a success alert!
+                </div>
+                <div class="alert alert-danger" role="alert">
+                    This is a danger alert!
+                </div>
+                <div class="alert alert-warning" role="alert">
+                    This is a warning alert!
+                </div>
+                <div class="alert alert-info" role="alert">
+                    This is an info alert!
+                </div>
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    This is a dismissible alert!
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="alert alert-primary" role="alert">
+                    This is a primary alert with a <a href="#" class="alert-link">link</a>. Click it to see!    
+                </div>
+
+            </div>
+        </div>
+                
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+# Explanation of the code:
+This code creates a webpage that demonstrates the use of Bootstrap's alert component. The page includes several alerts with different contextual classes (primary, secondary, success, danger, warning, and info) to showcase various types of alerts. Additionally, there is a dismissible alert that can be closed by the user, and an alert with a link styled using the "alert-link" class. The necessary meta tags for character encoding and viewport settings are included, along with links to Bootstrap's CSS and JavaScript files for styling and functionality.  
